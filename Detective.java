@@ -50,7 +50,13 @@ public class Detective{
 		
 		return result;
 	}
-	
+	public static void printResult(int[] potentialKillers){
+		System.out.print("The potential killers are: ");
+		for(int i = 0; i < potentialKillers.length; i++){
+			System.out.print(potentialKillers[i] + " ");
+		}
+		System.out.println();
+	}
 	public static void main(String[] args){
 		if(args.length == 0){
 			System.out.println("Debe de llamar el archivo a probar como parametro al ejecutar el programa");
@@ -59,7 +65,7 @@ public class Detective{
 			try{
 				int[] clan = readFromFileInput(in);
 				int[] potentialKillers = getPotentialKillers(clan);
-				
+				printResult(potentialKillers);
 			}catch(IOException err){
 				System.out.println(err.toString());
 			}
