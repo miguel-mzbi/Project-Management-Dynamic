@@ -3,6 +3,11 @@ This project will be developed in Java. Each developer will push to his correspo
 ###Problem 1: *Weird Queries*
 For the full explanation of the problem, visit [Code Chef](https://www.codechef.com/problems/SBSTCNT)
 
+For execution, first compile Detective.java, then execute Detective with the txt file for the input as parameter.
+     
+     javac Detective.java
+     java Detective detectiveCase1.txt
+
 As input:
 
  1. The first line contains M (Quantity of numbers to read) and Q (Quantity of queries to process).
