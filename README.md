@@ -1,7 +1,13 @@
 ##**Project-Management-Dynamic**
-This project will be developed in Java. Each developer will push to his corresponding branch, and merged at the end for the delivery. All problems will receive all the inputs, and print all the outputs to the terminal.
+This project will be developed in Java. Each developer will push to his corresponding branch, and merged at the end for the delivery. All problems will receive all the inputs froma file, and print all the outputs to the terminal.
 ###Problem 1: *Weird Queries*
 For the full explanation of the problem, visit [Code Chef](https://www.codechef.com/problems/SBSTCNT)
+
+For execution, first compile Detective.java, then execute Detective with the txt file for the input as parameter.
+     
+     javac Detective.java
+     java Detective detectiveCase1.txt
+
 As input:
 
  1. The first line contains M (Quantity of numbers to read) and Q (Quantity of queries to process).
@@ -23,6 +29,7 @@ Example output:
 
 ###Problem 2: *Chef Detective*
 For the full explanation of the problem, visit [Code Chef](https://www.codechef.com/problems/CHEFDETE)
+
 As input:
 
  1. The first line contains the integer N (Quantity of integers to read in the next line).
@@ -42,6 +49,7 @@ Example of output:
 
 ###Problem 3: *Task for Alex*
 For the full explanation of the problem, visit [Code Chef](https://www.codechef.com/problems/ALEXTASK)
+
 As input:
 
  1. The first line contains the integer T (Quantity of test cases to process. Each test case consist of 2 input lines).
