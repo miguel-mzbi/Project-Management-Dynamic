@@ -2,7 +2,7 @@
 Evidence of tests will be displayed here
 
 ----------
-### **Testing for: *Chef Detective* **
+###Testing for: *Chef Detective*
 3 tests were made to Detective.java
 Input of Test 1:
 
