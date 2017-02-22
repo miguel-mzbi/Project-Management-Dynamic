@@ -8,7 +8,7 @@ This project was intended to be developed in Java, but because code simplicity, 
 For the full explanation of the problem, visit [Code Chef](https://www.codechef.com/problems/SBSTCNT)
 
 For execution, first compile Detective.java, then execute Detective with the txt file for the input as parameter.
-     
+
      javac Detective.java
      java Detective detectiveCase1.txt
 
@@ -54,6 +54,10 @@ Example of output:
 ###Problem 3: *Task for Alex*
 For the full explanation of the problem, visit [Code Chef](https://www.codechef.com/problems/ALEXTASK)
 
+To run, just execute Alexey in terminal. The program will ask for the parameters in terminal.
+
+     ./Alexey
+
 As input:
 
  1. The first line contains the integer T (Quantity of test cases to process. Each test case consist of 2 input lines).
@@ -77,5 +81,3 @@ Example of output:
     6
     7
     4
-
-
