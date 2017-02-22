@@ -70,38 +70,18 @@ int lcm(int m, int n) {
     return m / gcd(m, n) * n;
 }
 
-// Deberia encontrar el mcm del array
-
-// Probar de izquierda a derecha?
-
-// Considerar los 2 menores numeros?
-
-// Que hacer...
-
-// Los 2 numeros mas chicos del array son lo que se busca
-
-// Si son iguales, la respuesta es el mismo numero
-
-// Si hay un 1, ese y el 2nd menor numero del array
-
-// Si son diferentes, 
-
-// Si son diferentes, empezar con el mas chico, y analizar su mcm con el siguiente mas chico
-
-// Permutar con el siguiente mas chico, si y solo si este es menor al mcm anterior
-
-// 4 5 6 7 = 4 y 5 da 20, 6 es el siguiente menor y es menor a 20, 4 y 6 da 12, 7 es el sig
-
-// menor y es menor a 12, 4 y 7 es 28
+// Developer: Raul Flores Miramontes A01224188
+// Code for lcm, gcd and radixSort, and findLargestNum are taken from
+// revised internet sources with their proper algorithm implementation
 
 int main() {
-    printf("Insert the number of test cases");
-    printf("Insert the number of sensors");
-    printf("Insert the number frequency of measurements");
+    printf("Insert the number of test cases\n");
+    printf("Insert the number of sensors\n");
+    printf("Insert the frequency of measurements on each sensor\n");
     printf("Example input:\n3\n4\n2 4 7 8\n");
     printf("Begin now\n");
 
-    int t, s, r, q, p;
+    int t, s, r, q, p, o;
     scanf("%d", &t);
 
     for (int i = 0; i<t; i++) {
@@ -116,21 +96,30 @@ int main() {
         for (int k = 2; k<s; k++) {
             if (list[k] <= q) {
                 p = lcm(list[r], list[k]);
-                //printf("Value of lcm %d\n", p);
+                // printf("Value of lcm %d\n", p);
                 if (p < q) {
                     q = p;
                     r = k;
-                } else if (list[k] == list [k+1]) {
+                    // printf("First path %d %d %d %d\n", p, q, r, k);
+                } else if (list[k] == list [k-1]) {
                     if (list[k] < q) {
-                        q = p;
+                        q = list[k];
                         r = k;
+                        break;
+                        // printf("Second path %d %d %d %d\n", p, q, r, k);
+                    }
+                } else {
+                    for (int l = 0; l<k; l++) {
+                       o = lcm(list[l], list[k]);
+                       if (o < q) {
+                           q = o;
+                           r = k;
+                           // printf("Third path %d %d %d %d\n", o, q, r, k);
+                       } 
                     }
                 }
             }
         }
         printf("The first freeze will occur at %d milliseconds\n", q);
     }
-    
-    // while (scanf("%d", &a[i++]) == 1);
-
 }
