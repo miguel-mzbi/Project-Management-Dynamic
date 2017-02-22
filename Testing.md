@@ -4,6 +4,7 @@ Evidence of tests will be displayed here
 ----------
 ###Testing for: *Chef Detective*
 3 tests were made to Detective.java
+
 Input of Test 1:
 
     6
@@ -32,6 +33,7 @@ Results obtained after execution:
 
 ###Testing for: *Tasks for Alexey*
 1 test was made, containing 5 cases to Alexey
+
 Input of test:
 
     5
