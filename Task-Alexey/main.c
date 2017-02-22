@@ -116,7 +116,7 @@ int main() {
         for (int k = 2; k<s; k++) {
             if (list[k] <= q) {
                 p = lcm(list[r], list[k]);
-                printf("Value of lcm %d\n", p);
+                //printf("Value of lcm %d\n", p);
                 if (p < q) {
                     q = p;
                     r = k;
@@ -128,7 +128,7 @@ int main() {
                 }
             }
         }
-        printf("MCM is %d\n", q);
+        printf("The first freeze will occur at %d milliseconds\n", q);
     }
     
     // while (scanf("%d", &a[i++]) == 1);
