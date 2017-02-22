@@ -1,5 +1,5 @@
 ##**Project-Management-Dynamic**
-This project will be developed in Java. Each developer will push to his corresponding branch, and merged at the end for the delivery. All problems will receive all the inputs froma file, and print all the outputs to the terminal.
+This project was intended to be developed in Java, but because code simplicity, some problems might be developed in C. Each developer will push to his corresponding branch, and merged at the end for the delivery. All problems will receive all the inputs froma file, and print all the outputs to the terminal.
 ###Problem 1: *Weird Queries*
 For the full explanation of the problem, visit [Code Chef](https://www.codechef.com/problems/SBSTCNT)
 
