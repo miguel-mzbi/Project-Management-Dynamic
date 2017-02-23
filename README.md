@@ -9,8 +9,8 @@ For the full explanation of the problem, visit [Code Chef](https://www.codechef.
 
 For execution, first compile Detective.java, then execute Detective with the txt file for the input as parameter.
 
-     javac Detective.java
-     java Detective detectiveCase1.txt
+     javac WeirdQueries.java
+     java WeirdQueries testCase.txt 
 
 As input:
 
@@ -33,6 +33,11 @@ Example output:
 
 ###Problem 2: *Chef Detective*
 For the full explanation of the problem, visit [Code Chef](https://www.codechef.com/problems/CHEFDETE)
+
+For execution, first compile Detective.java, then execute Detective with the txt file for the input as parameter.
+
+     javac Detective.java
+     java Detective detectiveCase1.txt
 
 As input:
 

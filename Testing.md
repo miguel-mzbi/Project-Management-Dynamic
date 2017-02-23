@@ -56,3 +56,19 @@ Expected output:
     15
 Results obtained after execution (The value in the line containing: MCN is <result>):
 ![Alexey tests](https://cdn.pbrd.co/images/BifyNbKcU.png?raw=true)
+
+###Testing for: *Tasks for Alexey*
+
+
+Input of test:
+
+    5 2
+    4 5 4 6 2
+    0 3 11
+    2 2 2 3
+Expected output:
+
+    19
+    1
+
+![Weird tests](https://cdn.pbrd.co/images/BB4NyelLo.png)
